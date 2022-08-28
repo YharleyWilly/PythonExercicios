@@ -21,3 +21,6 @@ print('Está em minúsculo?', dgt.islower())
 
 
 
+
+
+
