@@ -1,11 +1,7 @@
-# Programa que apresente o número de dias de n meses;
-# Levando em consideração a quantidade exata de dias dos meses, como por exemplo, o mês de fevereiro que tem 28 dias, os
-# meses que tem 30 dias e os que tem  31 dias.
+#Faça um algoritmo que leia o preço de um produto e mostr seu novo preço, com 5% de desconto.
+
+preco = float(input("Preço do produto R$:"))
+desconto = preco * 0.95
+print("O produto que custava R${:.2f}, na promoção com 5% de desconto vai custar R${:.2f}".format(preco, desconto))
 
 
-Fevereiro = int(28)
-Janeiro = Março = Maio = Julho = Agosto = Outubro = Dezembro = int(31)
-Abril = Junho = Setembro = Novembro = int(30)
-Meses = int(input("Digite os meses para saber os dias exatos: "))
-Dias(Janeiro + Março + Maio + Julho + Agosto + Outubro + Dezembro)
-print("Esses meses possuem {} dias".format(Dias))
